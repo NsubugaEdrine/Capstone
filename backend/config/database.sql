@@ -2,7 +2,7 @@
 -- Run with: mysql -u root -p ucuhub < config/database.sql
 show databases;
 
-CREATE DATABASE ucuhub;
+CREATE DATABASE IF NOT EXISTS ucuhub;
 
 use ucuhub;
 show TABLEs;
