@@ -5,8 +5,8 @@ show databases;
 CREATE DATABASE IF NOT EXISTS ucuhub;
 
 use ucuhub;
-show TABLEs;
 
+show TABLEs;
 
 CREATE TABLE IF NOT EXISTS users (
     id INT AUTO_INCREMENT PRIMARY KEY,
